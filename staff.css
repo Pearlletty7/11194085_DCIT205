@@ -43,7 +43,13 @@ nav{
     height: 110%;
 }
 
+.logo a{
+    font-size: 20px;
+    color:#2C2A58;
+    font-weight: bold;
+    margin-left: 80px;
 
+}
 
 a{
     text-decoration: none;
@@ -61,7 +67,7 @@ ul{
 
 ul li{
     float: left;
-    padding: 0px 13px;
+    padding: 0px 12px;
     list-style: none;
 margin-left: 5px;
 }
@@ -69,16 +75,16 @@ ul li a:hover{
     color:#fff;
 }
 .head{
-background: url(welc.jpg) no-repeat;
+    background: url(ffff.webp) no-repeat;
     background-size: cover;
-    height: 110vh;
+    height: 140vh;
     width: 100%;
 }
 
 
 .overlay{
-    background: rgba(32, 51, 103, 0.566);
-    height: 110vh;
+    background: rgba(2, 15, 52, 0.566);
+    height: 140vh;
     width: 100%;
 }
 
@@ -88,7 +94,7 @@ background: url(welc.jpg) no-repeat;
 .content{
     position:absolute;
     top: 48%;
-    left: 50%;
+    left: 44%;
     transform: translate(-40%, -40%);
 }
 .message h3{
@@ -118,99 +124,70 @@ font-size: 15px;
     transition: 0.4s ease;
 }
 
-.why h2{
-    margin-top: 40px;
-    font-size: 27px;
+.mess{
+    margin: 30px;
+}
+.mess h2{
     text-align: center;
-    margin-bottom: 20px;
-    color:#2C2A58;
-    letter-spacing: 1.1px;
-    line-height: 21px;
-}
-.why p{
-    
-    font-size: 17px;
-    text-align: center;
-    margin-bottom: 40px;
-    color:#2C2A58;
-    letter-spacing: 1.1px;
-    line-height: 21px;
-}
-
-.title p{
-    text-align: center;
-    padding-top: 20px;
-    font-size: 34px;
-    color:#2C2A58;
-    font-weight: 500;
-    background-color: #BD9C6C;
-    padding-bottom: 23px;
-}
-
-
-.services{
-    width: 85%;
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    margin :14px auto;
-    text-align: center;
-}
-.card{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    margin: 0px 20px;
-    padding: 20px 10px;
-    border-radius: 10px;
-    cursor: pointer ;
-}
-.card:hover{
-    background-color: #f0f0f0;
-}
-
-.card h2{
-font-size: 28px;
-margin-bottom: 5px;
-color:#2C2A58;
-}
-.card p{
-    font-size: 17px;
-    margin-bottom: 15px;
-    line-height: 1.5;
-    color:#5e5e5e;
-} 
-.button{
-    font-size: 15px;
-    text-decoration: none;
     color: #2C2A58;
-    background-color: #BD9C6C;
-    padding: 8px 12px;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 15px;
 }
-.button:hover{
-    background-color: #2c287a;
-    transition: 0.4s ease;
-    color: #BD9C6C;
-}
-@media screen and (max-width: 940px){
-    .services{
-        display: flex;
-        flex-direction: column;
-    }
-    .card{
-width: 85%;
-display:flex;
-margin: 20px 0px;
-    }
+.mess p{
+    text-align: center;
+    color: #2C2A58;
+    font-size: 16px;
+    margin-bottom: 15px;
+    letter-spacing: 1.1px;
+    line-height: 21px;
+    margin-bottom: 20px;
 }
 
 
+.next_row{
+    width: 100%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px 30px;
 
+}
+.next_row .next_left{
+    overflow: hidden;
+}
+.next_row .next_left img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    margin-top:5px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+}
+.next_row .next_right{
+    display: flex;
+    align-items: center;
+}
+.next_row .right .message{
+    padding-left: 20px;
+}
+.next_row .next_right .next_message h3{
+    padding-left: 20px;
+    font-weight: 550;
+    font-size: 36px;
+    color:#2C2A58;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    letter-spacing: 1.1px;
+    line-height: 21px;
+}
+.next_row .next_right .next_message p{
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 15px;
+    color: #2C2A58;
+    letter-spacing: 1.1px;
+    line-height: 21px;
+}
 
 
 .footer{
@@ -301,6 +278,13 @@ border-radius: 50%;
     }
 }
 
+
+
+@keyframes animate{
+0%{
+    transform: scaleY(0);
+}
+}
 
 
 @keyframes animate{
