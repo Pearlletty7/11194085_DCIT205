@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    padding: 40px;
+    height: 40vh;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.checkmark-container {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.checkmark-container img {
+    width: 80px;
+    height: 80px;
+}
+
+.card-content {
+    margin-top: 60px;
+}
+
+h2 {
+    color: #4caf50;
+}
+
+p {
+    color: #333;
+}

@@ -77,19 +77,34 @@ ul li a:hover{
 .head{
     background: url(ffff.webp) no-repeat;
     background-size: cover;
-    height: 140vh;
+    height: 70vh;
     width: 100%;
 }
 
 
 .overlay{
     background: rgba(2, 15, 52, 0.566);
-    height: 140vh;
+    height: 70vh;
     width: 100%;
 }
 
+.about h2{
+    text-align: center;
+    margin: 20px;
+    font-weight: 600;
+    color: #2C2A58;
 
-
+}
+.about p{
+    text-align: justify;
+    margin: 20px;
+    color: #2C2A58;
+    font-size: 16px;
+    margin-bottom: 15px;
+    letter-spacing: 1.1px;
+    line-height: 21px;
+    
+}
 
 .content{
     position:absolute;
@@ -140,7 +155,7 @@ font-size: 15px;
     margin-bottom: 15px;
     letter-spacing: 1.1px;
     line-height: 21px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 

@@ -77,14 +77,14 @@ ul li a:hover{
 .head{
     background: url(grad.jpg) no-repeat;
     background-size: cover;
-    height: 110vh;
+    height: 70vh;
     width: 100%;
 }
 
 
 .overlay{
     background: rgba(2, 15, 52, 0.566);
-    height: 110vh;
+    height: 70vh;
     width: 100%;
 }
 

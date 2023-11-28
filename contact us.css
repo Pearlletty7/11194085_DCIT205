@@ -121,6 +121,60 @@ font-size: 15px;
 
 
 
+.login-container {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #e5e5e5;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.loginForm{
+   display: flex; 
+  align-items: center;
+}
+.login-container h2{
+    color: rgb(118, 81, 2);
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #605810;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: #6a5f1e;
+}
+
+
+
+
+
+
+
 .footer{
     width: 100%;
     display: flex;
