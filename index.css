@@ -71,14 +71,14 @@ ul li a:hover{
 .head{
 background: url(welc.jpg) no-repeat;
     background-size: cover;
-    height: 110vh;
+    height: 80vh;
     width: 100%;
 }
 
 
 .overlay{
     background: rgba(32, 51, 103, 0.566);
-    height: 110vh;
+    height: 80vh;
     width: 100%;
 }
 
